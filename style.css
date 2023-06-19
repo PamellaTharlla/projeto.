@@ -1,0 +1,284 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+ 
+   
+   body{
+
+   background-color: #610000;
+
+  
+  }
+
+  .login{
+    text-align: center;
+  }
+  
+  .nome {
+
+  
+   
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  
+  .nomee{
+    color: #fff;
+  }
+  .entar {
+   align-items: center;
+   font-style: normal;
+    color: rgb(0, 0, 0);
+   
+    
+  }
+  
+    .conteudo{
+    
+      display: flex;
+      background-color:#000000 ;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      height: 65vh;
+      width: 60vh;
+    background-size: cover;
+    border-radius:15px ;
+    margin-left: 36%;
+    margin-top: 8%;
+    opacity: 0.7;
+  }
+
+  .conteudo2 {
+    display: flex;
+   background-color: #000000;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 65vh;
+    width: 60vh;
+  background-size: cover;
+  border-radius:15px ;
+  margin-left: 36%;
+  margin-top: 8%;
+  opacity: 0.7;
+   
+  }
+  .icon{
+   margin-top: 10px;
+   margin-left: 10px;
+  }
+  .cadas{
+    color: #fff;
+  }
+  .cont {
+    display: flex;
+  
+   margin-top: 10px;
+  }
+  
+ a:hover{ color: #ff0000;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+ a{
+  color: #ffffff;
+  text-decoration: none;
+ }
+  
+
+  
+  .entar input{
+   margin-right: 10px;
+    outline:none;
+    text-align: center;
+    align-items: center;
+    opacity: 0.5;
+    display: flex;
+   
+    background-color: #fff;
+     line-height: 40px;
+     border: none;
+     border-radius: 10px;
+  
+  }
+  
+  .conteudo2 button{
+  margin-left: 27px;
+  }
+  
+  .descrição input{
+  display: flex;
+    margin: 15px 0 ;
+    outline:none;
+   margin-left: 20px;
+   align-items: center;
+    text-align: center;
+    opacity: 0.5;
+     line-height: 40px;
+     border: none;
+     border-radius: 10px;
+ }
+  
+  button{
+    outline:none;
+    border-radius: 10px;
+    text-transform: uppercase;
+     border: none;
+     margin: 15px 0;
+    height: 25px;
+    width: 100px;
+   
+  }
+ 
+  .btn { 
+    opacity: 0.7;
+    color: #DF0823;
+    
+  
+  
+    font-weight: bold;
+    text-decoration: none;
+   background-color: #ffffff;
+    border: 2px solid #ffffff;
+    text-transform: capitalize;
+   
+   font-size: 13px;
+   margin: 0 15PX;}
+  
+   .btn1{
+  
+    opacity: 0.7;
+    color:#DF0823;
+    font-weight: bold;
+    text-decoration: none;
+   background-color: #ffffff;
+    border: 2px solid #ffffff;
+    text-transform: capitalize;
+   
+   font-size: 13px;
+   margin: 0 15PX;}
+
+   .btn:hover{
+    background-color: #000000;
+}
+ 
+.btn1:hover{
+    background-color: #000000;
+}
+.esqueceu{
+    color: #fff;
+}
+
+
+ 
+ .cine{
+ color: #fff;
+ }
+li{
+  list-style: none;
+ padding-left: 2rem;
+ cursor: pointer;
+ 
+}
+
+nav{
+display: flex;
+  background-color: #000000;
+  height: 60px;
+  padding: 0 30px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav ul{
+  display: flex;
+ 
+  
+
+}
+
+.navv ul{
+  margin-left: 70%;
+}
+.navv{
+  width: 100%;
+  height: 55px;
+  
+  justify-content: space-around;
+  
+  background-color:#000000;
+
+}
+.imgg{
+  align-items: center;
+ padding-left: 23%;
+
+}
+.im ul{
+  margin-top: 70px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+ 
+  box-shadow: 0 5px 6px 1px #000000;
+}
+#movies-container div{
+ margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #370000;
+  width: 330px;
+  color: #fff;
+}
+main {
+  text-align: center;
+
+ padding: 1rem 2rem;
+gap: 0.5rem;
+columns: 3;
+flex-wrap: wrap;
+margin: 0 auto;
+margin-bottom: 1 rem;
+
+}
+
+#movies-container img {
+  flex-wrap: wrap;
+  
+  width: 300px;
+  border-radius: 8px;
+  margin-bottom: 3.7 rem;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+#movies-container {
+  text-align: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  border: #000000 solid ;
+  
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+ columns: 3;
+ justify-content: space-between;
+ margin: 0 auto;
+ border: none;
+ gap: 0.9rem;
+ margin-bottom: 2.5rem;
+
+}
+
+

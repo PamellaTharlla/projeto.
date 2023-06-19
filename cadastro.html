@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.html">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    
+    <div class="conteudo2">
+        <div class="foto"><img src="img/95c0aa428f4137aea198927892403cb6-caixa-de-pipoca-grande.png" alt=""></div>
+       
+    
+       
+        <form class="descrição"  >   
+            <div class="cadas"> <h2>Cadastre-se</h2></div>
+         <input type="text" placeholder="Nome" id="nome"> 
+         <input type="email"  placeholder="Email" id="emaill"> 
+         <input type="password"  placeholder="Senha" id="snha">  
+         <button class="btn1"  onclick="logar(); return false" > inscreva-se </button>
+         <div class="icon">
+            <a href="#"> <i class="fa-brands fa-google" style="color: #ffffff;"> </i></a> 
+             <a href="#"> <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>   </a>   
+           
+        </div> 
+       </form>
+       <script>
+        function logar(){
+           var text = document.getElementById('nome').value;
+           var email = document.getElementById('emaill').value;
+           var password = document.getElementById('snha').value;
+           
+           location.href= "index.html";
+
+        }
+
+
+       </script>
+ 
+     </div>
+
+    
+</body>
+<script src="https://kit.fontawesome.com/3cf7696ced.js" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de login</title>
+    
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cadastro.html">
+    <link rel="stylesheet" href="">
+   
+</head>
+<body>
+  <script src="https://kit.fontawesome.com/3cf7696ced.js" crossorigin="anonymous"></script>
+    
+     <DIV class="conteudo">
+      <div class="foto"><img src="img/95c0aa428f4137aea198927892403cb6-caixa-de-pipoca-grande.png" alt=""></div>
+     <div class="cont"> 
+      
+        <div class="nome"> <h1>Cine Flix  <br> </h1> <br>
+          <div class="login "> <h3> Faça Login </h3></div> <br>
+          
+          
+
+            <form class="entar">
+            <input type="email" placeholder="Email" id="email">
+               <br>
+               
+               <input type="password" placeholder="Senha" id="senha">
+               <br>
+
+               <button class="btn" onclick="logar(); return false"> Entrar  </button>  ></a><br>
+
+
+               <div class="Esqueceu"> <br>
+                <a href="#"> Esqueceu a senha</a> <p></p> <br>
+                <a href="cadastro.html"> Crie sua conta</a> 
+                <br> <br>
+               </div>
+              </div>
+
+           </form>
+           <script>
+            function logar(){
+               var email = document.getElementById('email').value;
+               var password = document.getElementById('senha').value;
+               location.href= "index.html";
+
+            }
+
+
+           </script>
+           </div>
+        </div>
+      </div>
+        
+</body>
+</html>
